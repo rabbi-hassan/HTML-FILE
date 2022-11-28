@@ -1,0 +1,146 @@
+/**
+
+Template Name:  - HTML Template
+Template URL: https://coderitsolution.com
+Author: Coder IT Solution
+Author URI: https://coderitsolution.com
+
+**/
+
+
+html {
+	font-size: 62.5%;
+}
+
+
+body {
+	margin: 0;
+	font-size: 14px;
+	font-weight: normal;
+	overflow-x: hidden;
+
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+p {
+	font-weight: normal;
+	color: #515A66;
+	font-size: 15px;
+	line-height: 25px;
+	line-height: 2.5rem;
+}
+
+
+h1 {
+	color: #515A66;
+	font-weight: bold;
+	font-size: 38px;
+}
+
+
+
+
+/*Button Style*/
+.btn-sty-1 {
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #42519A;
+	background: #9ED7D0;
+	padding: 7px 40px;
+	font-size: 14px;
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 15px;
+	box-shadow: 0 2px 0px #42519A;
+	transition: .3s;
+}
+
+.btn-sty-1:hover {
+	color: #fff;
+	background: #525A67;
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+
+
+
+
+/*******************************/
+/****** 1. Header area Css  ****/
+/*******************************/
+
+header {
+	padding: 20px 0;
+	background: #3498db;
+}
+
+.menu ul li a,
+.logo a {
+	color: #FFF;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.menu ul li {
+	margin-left: 10px;
+}
+
+
+
+/*******************************/
+/****** 1. Single area Css  ****/
+/*******************************/
+
+.single-section .row {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.single-section {
+	background: #ecf0f1;
+}
+
+
+
+
+
+
+
+/*******************************/
+/****** 1. Footer area Css  ****/
+/*******************************/
+footer {
+	background: #9b59b6;
+	color: #FFF;
+	padding: 20px 0;
+	text-align: center;
+}
+
+footer p {
+	color: #FFF;
+}
